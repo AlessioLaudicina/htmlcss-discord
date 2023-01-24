@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body{
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.debug header{
+    background-color: rgb( 38, 94,	233	);
+    height: 400px;
+    padding-top: 10px
+
+}
+
+.flex-container{
+    max-width: 1070px;
+    margin: auto;
+}
+
+
+.header_top{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb( 38, 94,	233	);
+    height: 30px;
+    width: 800px;
+    margin: auto;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo{
+    width: 20%;
+}
+
+.menu{
+    width: 60%;
+}
+
+.menu li{
+    padding: 10px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.head_button{
+    
+    height: 30px;
+    width: 90px;
+    border: none;
+    background-color: whitesmoke;
+    
+    border-radius: 8px;
+}
+
+.button{
+    height: 50px;
+    width: 160px;
+    font-size: 18px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 13px;
+}
+
+.button-black{
+    height: 50px;
+    width: 255px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 18px;
+
+    
+    border-radius: 13px;
+}
+
+.header-bottom{
+    height: 389px;
+    margin-top: 10px;
+    display: flex;
+    background-image: url(../-htmlcss-discord/img/jumbo.png);
+    background-size: 100%;
+}
+
+.content{
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    color: whitesmoke;
+}
+
+.title-header{
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-header{
+    margin: 24px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.button-flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.section_container{
+    display: flex;
+    max-width: 1170px;
+    margin: 50px auto;
+    height: 400px;
+    
+}
+
+.small-column{
+    width: 40%;
+
+}
+
+.big-column{
+    
+    width: 60%;
+
+
+}
+
+
+.title-column{
+    text-align: center;
+    margin: 40px;
+}
+
+.p-column{
+    text-align: center;
+    color: black;
+}
+
+
+.bg-grey{
+    background-color: grey;
+}
+
+
+main section{
+    padding: 50px 0px;
+}
+
+
+.final_sec{
+    height: 600px;
+    background-color: rgb(167, 160, 160);
+    width: 100%;
+    display: flex;
+    border: dashed;
+}
+
+.container_sec{
+  
+    margin: auto;
+}
+
+
+
+footer{
+
+    background-color: #333;
+    padding: 50px 0px;
+}
+
+.footer-container{
+    margin: auto;
+    max-width: 1170px;
+}
+
+.footer-top{
+    display: flex;
+    height: 400px;
+   
+}
+
+.footer-top .main-column{
+    width: 30%;
+    background-color: pink;
+   
+}
+
+.footer-top .menu-column{
+    width: 70%;
+    background-color: aqua;
+    display: flex;
+   
+}
+
+
+footer hr{
+    margin: 20px 0px;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 20px 0px;
+    height: 20px;
+
+    
+}
+
+
+.col{
+    border: dashed;
+    display: flex;
+    width: calc(100% / 4);
+}
