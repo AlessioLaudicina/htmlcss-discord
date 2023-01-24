@@ -90,7 +90,7 @@ h1{
     height: 389px;
     margin-top: 10px;
     display: flex;
-    background-image: url(../-htmlcss-discord/img/jumbo.png);
+    background-image: url(../htmlcss-discord/img/jumbo.png);
     background-size: 100%;
 }
 
