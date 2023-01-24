@@ -157,11 +157,13 @@ ul{
 .p-column{
     text-align: center;
     color: black;
+    line-height: 1.625;
+    font-size: 20px;
 }
 
 
 .bg-grey{
-    background-color: grey;
+    background-color: rgb(246, 246, 246);
 }
 
 
@@ -170,24 +172,31 @@ main section{
 }
 
 
+
 .final_sec{
-    height: 600px;
-    background-color: rgb(167, 160, 160);
+    height: 750px;
+    background-color: rgb(246, 246, 246);
     width: 100%;
     display: flex;
-    border: dashed;
 }
 
 .container_sec{
   
     margin: auto;
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
 }
+
+
+
 
 
 
 footer{
 
-    background-color: #333;
+    background-color: rgb(35	39	42);
     padding: 50px 0px;
 }
 
@@ -235,4 +244,11 @@ footer hr{
     border: dashed;
     display: flex;
     width: calc(100% / 4);
+}
+
+#registrati{
+   background-color: rgb(113	137	218	);
+   width: 100px;
+    border-radius: 13px;
+    border: none;
 }
