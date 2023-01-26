@@ -14,7 +14,6 @@ h1{
 
 .debug header{
     background-color: rgb( 38, 94,	233	);
-    height: 400px;
     padding-top: 10px
 
 }
@@ -67,7 +66,6 @@ h1{
 }
 
 .button{
-    height: 50px;
     width: 160px;
     font-size: 18px;
     border: none;
@@ -91,7 +89,8 @@ h1{
     height: 500px;
     display: flex;
     background-image: url(../htmlcss-discord/img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content{
@@ -117,7 +116,6 @@ h1{
 .button-flex{
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
 
 }
 
